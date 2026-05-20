@@ -1,12 +1,12 @@
 /* =========================================================
-   TIARA RIZKA PORTFOLIO — style.css — FINAL v2
+    style.css
    ========================================================= */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
 body { font-family: 'Segoe UI', sans-serif; background: #fff; overflow-x: hidden; }
 
 /* =========================================================
-   NAVBAR — satu pill besar, icon atas teks bawah, Project bubble hitam naik
+   NAVBAR 
    ========================================================= */
 #mainNav {
   background: #0d1b2a;
@@ -53,7 +53,7 @@ body { font-family: 'Segoe UI', sans-serif; background: #fff; overflow-x: hidden
   background: rgba(255,255,255,.13);
   color: #fff !important;
 }
-/* Project — bubble hitam naik ke atas menonjol dari bar */
+/* Project  */
 .npi-proj {
   background: #111 !important;
   color: #fff !important;
@@ -225,7 +225,7 @@ body { font-family: 'Segoe UI', sans-serif; background: #fff; overflow-x: hidden
 
 /* ===== CARD BASE ===== */
 .sk-card {
-  border-radius: 22px;          /* rounded besar sesuai desain */
+  border-radius: 22px;          
   padding: 22px 24px 18px;
   color: #fff;
   opacity: 0;
@@ -250,7 +250,7 @@ body { font-family: 'Segoe UI', sans-serif; background: #fff; overflow-x: hidden
 .sk-figma { background: linear-gradient(145deg, #7c3aed 0%, #9333ea 40%, #c084fc 100%); }
 .sk-canva { background: linear-gradient(145deg, #007c82 0%, #00acc1 40%, #26c6da 100%); }
 
-/* ===== LOGO + NAMA ===== */
+/* ===== LOGO & NAMA ===== */
 .sk-top {
   display: flex;
   align-items: center;
@@ -258,7 +258,7 @@ body { font-family: 'Segoe UI', sans-serif; background: #fff; overflow-x: hidden
   margin-bottom: 20px;
 }
 
-/* Kotak logo — sesuai desain ada kotak kecil berisi logo */
+/*Kotakl logo */
 .sk-logo {
   width: 64px;
   height: 64px;
@@ -287,7 +287,7 @@ body { font-family: 'Segoe UI', sans-serif; background: #fff; overflow-x: hidden
   padding: 4px;
 }
 
-/* Figma logo — background hitam persis di desain */
+/* Figma logo — background hitam */
 .sk-logo-figma {
   background: #1e1e1e;
   padding: 10px;
@@ -308,7 +308,7 @@ body { font-family: 'Segoe UI', sans-serif; background: #fff; overflow-x: hidden
 
 /* ===== PROGRESS BAR ===== */
 .sk-track {
-  height: 10px;                 /* lebih tebal sesuai desain */
+  height: 10px;                
   background: rgba(0,0,0,.25);
   border-radius: 6px;
   overflow: hidden;
@@ -320,7 +320,7 @@ body { font-family: 'Segoe UI', sans-serif; background: #fff; overflow-x: hidden
   transition: width 1.6s cubic-bezier(.22,1,.36,1);
 }
 
-/* Warna bar masing-masing — sesuai desain */
+/* Warna bar masing-masing */
 .sk-bar-html  { background: #fff; }
 .sk-bar-js    { background: #ffe066; }
 .sk-bar-css   { background: #fff; }
@@ -439,25 +439,74 @@ body { font-family: 'Segoe UI', sans-serif; background: #fff; overflow-x: hidden
 @keyframes tOut { from{opacity:1} to{opacity:0;transform:translateY(12px)} }
 
 /* =========================================================
-   FOOTER — gallery pakai foto asli
+   FOOTER
    ========================================================= */
-.sec-footer { background: #0c1620; color: #fff; padding-bottom: 20px; }
-.ft-cap { font-size: .73rem; color: rgba(255,255,255,.5); line-height: 1.55; margin-bottom: 10px; }
-.ft-gal { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; }
-.ft-gal-img { width: 100%; height: 60px; object-fit: cover; border-radius: 5px; display: block; }
-.ft-ttl  { font-size: .88rem; font-weight: 700; letter-spacing: 1px; margin-bottom: 14px; color: #fff; }
-.ft-menu { list-style: none; padding: 0; }
-.ft-menu li { margin-bottom: 8px; }
-.ft-menu a { color: rgba(255,255,255,.58); text-decoration: none; font-size: .82rem; transition: color .25s; }
-.ft-menu a:hover { color: #42a5f5; }
-.ft-soc  { list-style: none; padding: 0; }
-.ft-soc li { color: rgba(255,255,255,.58); font-size: .82rem; margin-bottom: 9px; display: flex; align-items: center; gap: 8px; }
-.ft-soc i { color: #42a5f5; }
-.ft-desc { font-size: .78rem; color: rgba(255,255,255,.55); line-height: 1.6; }
-.ft-loc  { font-size: .8rem; color: rgba(255,255,255,.65); display: flex; align-items: center; gap: 6px; margin-top: 10px; }
-.ft-loc i { color: #ef5350; }
-.ft-hr   { border-color: rgba(255,255,255,.1); margin: 20px 0 14px; }
-.ft-copy { font-size: .77rem; color: rgba(255,255,255,.32); }
+.sec-footer { background: #0c1620; 
+color: #fff; 
+padding-bottom: 20px; 
+}
+.ft-cap { font-size: .73rem; 
+color: rgba(255,255,255,.5); 
+line-height: 1.55; 
+margin-bottom: 10px; 
+}
+.ft-gal { display: grid; 
+grid-template-columns: 1fr 1fr; 
+gap: 4px; 
+}
+.ft-gal-img { width: 100%; 
+height: 60px; 
+object-fit: cover; 
+border-radius: 5px; 
+display: block; 
+}
+.ft-ttl  { font-size: .88rem; 
+font-weight: 700; 
+letter-spacing: 1px; 
+margin-bottom: 14px; 
+color: #fff; 
+}
+.ft-menu { list-style: none; 
+padding: 0; 
+}
+.ft-menu li { margin-bottom: 8px; 
+}
+.ft-menu a { color: rgba(255,255,255,.58); text-decoration: none; 
+font-size: .82rem; 
+transition: color .25s; 
+}
+.ft-menu a:hover { color: #42a5f5; 
+}
+.ft-soc  { list-style: none; 
+padding: 0; 
+}
+.ft-soc li { color: rgba(255,255,255,.58); 
+font-size: .82rem; 
+margin-bottom: 9px; 
+display: flex; 
+align-items: center; 
+gap: 8px; 
+}
+.ft-soc i { color: #42a5f5; 
+}
+.ft-desc { font-size: .78rem; 
+color: rgba(255,255,255,.55); 
+line-height: 1.6; 
+}
+.ft-loc  { font-size: .8rem; 
+color: rgba(255,255,255,.65); 
+display: flex; 
+align-items: center; 
+gap: 6px; margin-top: 10px; 
+}
+.ft-loc i { color: #ef5350; 
+}
+.ft-hr   { border-color: rgba(255,255,255,.1); 
+margin: 20px 0 14px; 
+}
+.ft-copy { font-size: .77rem; 
+color: rgba(255,255,255,.32); 
+}
 
 /* =========================================================
    REVEAL + KEYFRAMES + RESPONSIVE
